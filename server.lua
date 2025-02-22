@@ -1,6 +1,6 @@
 
 
-local pingLimit = 1
+local pingLimit = 200
 local function checkPlayerPings()
     for _, playerId in ipairs(GetPlayers()) do
         local ping = GetPlayerPing(playerId)
